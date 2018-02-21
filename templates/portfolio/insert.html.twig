@@ -1,0 +1,56 @@
+{% extends 'base.html.twig' %}
+{% block stylesheets %}
+<link rel="stylesheet" type="text/css"  href="assets/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+{% endblock %}
+
+{% block body %}
+<div class="container form ">
+  <h2 class="text-center">Ajout de nouveaux projets / compétences / expérience </h2>
+
+<div class="row">
+
+
+<form class="col-lg-6">
+  <h3 class="text-center"> Ajout d'un nouveau projet</h3>
+  <div class="form-group">
+    <label for="titre">Titre du projet</label>
+    <input type="text" class="form-control" id="titre" placeholder="Titre">
+  </div>
+  <label for="techno">Technologies Utilisées</label>
+  <select id="techno" class="form-control form-control-sm" multiple >
+      <option>Php</option>
+      <option>Html</option>
+      <option>Css</option>
+  </select>
+  <div class="form-group">
+    <label for="description">Description du projet</label>
+    <textarea class="form-control" id="description" rows="3"></textarea>
+  </div>
+  <div class="form-group">
+   <label for="image">Image</label>
+   <input type="file" class="form-control-file" id="image">
+   <label for="nomImg">Nom de l'image : </label>
+   <input type="text" name="nomImg" class="form-control">
+ </div>
+  <button type="submit" class="btn btn-primary">Ajouter</button>
+</form>
+
+
+
+<form class="col-lg-6">
+  <h3 class="text-center"> Ajout d'une nouvelle compétence</h3>
+  <div class="form-group">
+    <label for="comp">Compétence :</label>
+    <input type="text" class="form-control" id="comp" placeholder="Compétence">
+  </div>
+  <button type="submit" class="btn btn-primary">Ajouter</button>
+</form>
+</div>
+</div>
+{% endblock %}
+
+{% block javascripts %}
+<script type="text/javascript" src="assets/jquery/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="assets/js/script.js"></script>
+{% endblock %}

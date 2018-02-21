@@ -1,0 +1,128 @@
+@font-face {
+	font-family: "SourceSans";
+	src: url("assets/fonts/SourceSansPro-Regular.ttf") format("ttf")
+}
+
+
+body{
+	font-family: SourceSans;
+	h3{
+		font-size: 3em;
+		padding: 3%;
+		padding: 3%;
+	}
+
+	section {
+		padding: 5%;
+	}
+
+// header
+header {
+	height: 100vh;
+	background-image: url('../../img/portfolio/fleche1.jpg');
+	background-size: cover;
+	svg{
+	  width:100%;
+	}
+
+	.intro{
+		padding-top: 40vh;
+
+	}
+
+	.fleche{
+		padding-top: 30%;
+		a{
+			color: #272928;
+		}
+		a:hover{
+			color: #882133;
+		}
+	}
+
+}
+
+
+
+// nav
+
+#bg{
+	background-color: transparent;
+	a{
+		color: #272928;
+	}
+	a:hover{
+		color: #882133;
+	}
+}
+
+
+
+// Section portfolio
+#portfolio{
+	background-color: #EDEDED;
+	h3{
+		padding-bottom: 5%;
+	}
+}
+
+
+
+// fleche changement de section
+.down {
+	padding-top: 8%;
+	a{
+		color: #272928;
+	}
+	a:hover{
+		color: #882133;
+	}
+}
+
+
+
+//section contact formulaire et liens
+.contact {
+
+  padding: 5%;
+
+  form{
+		padding: 2%;
+		.form-control:focus{
+			border-color: #882133;
+			box-shadow: 0 0 0 0.2rem rgba(136, 33, 51, 1);
+		}
+
+		.btn:hover{
+			color: rgb(221,221,221);
+			background-color: rgba(136, 33, 51, 0.6);
+		}
+		.btn:focus{
+			box-shadow: 0 0 0 0.2rem rgba(136, 33, 51, 0.59);
+		}
+
+		textarea{
+			resize: none;
+		}
+  }
+
+	.social{
+		padding-top: 5%;
+		a{
+			color: #272928;
+		}
+		a:hover{
+			color: #882133;
+		}
+	}
+}
+
+
+
+// footer Copyright
+footer {
+	background-color: #F8F9FA;
+	padding: 2%;
+	color: grey;
+}
+}

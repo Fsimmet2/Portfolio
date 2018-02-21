@@ -1,0 +1,108 @@
+@font-face {
+  font-family: "SourceSans";
+  src: url("assets/fonts/SourceSansPro-Regular.ttf") format("ttf"); }
+body {
+  font-family: SourceSans; }
+  body h3 {
+    font-size: 3em;
+    padding: 3%;
+    padding: 3%; }
+  body section {
+    padding: 5%; }
+  body header {
+    height: 100vh;
+    background-image: url("../../img/portfolio/fleche1.jpg");
+    background-size: cover; }
+    body header svg {
+      width: 100%; }
+    body header .intro {
+      padding-top: 40vh; }
+    body header .fleche {
+      padding-top: 30%; }
+      body header .fleche a {
+        color: #272928; }
+      body header .fleche a:hover {
+        color: #882133; }
+  body #bg {
+    background-color: transparent; }
+    body #bg a {
+      color: #272928; }
+    body #bg a:hover {
+      color: #882133; }
+  body #portfolio {
+    background-color: #EDEDED; }
+    body #portfolio h3 {
+      padding-bottom: 5%; }
+  body .down {
+    padding-top: 8%; }
+    body .down a {
+      color: #272928; }
+    body .down a:hover {
+      color: #882133; }
+  body .contact {
+    padding: 5%; }
+    body .contact form {
+      padding: 2%; }
+      body .contact form .form-control:focus {
+        border-color: #882133;
+        box-shadow: 0 0 0 0.2rem #882133; }
+      body .contact form .btn:hover {
+        color: #dddddd;
+        background-color: rgba(136, 33, 51, 0.6); }
+      body .contact form .btn:focus {
+        box-shadow: 0 0 0 0.2rem rgba(136, 33, 51, 0.59); }
+      body .contact form textarea {
+        resize: none; }
+    body .contact .social {
+      padding-top: 5%; }
+      body .contact .social a {
+        color: #272928; }
+      body .contact .social a:hover {
+        color: #882133; }
+  body footer {
+    background-color: #F8F9FA;
+    padding: 2%;
+    color: grey; }
+
+.homepage-hero-module {
+  border-right: none;
+  border-left: none;
+  position: relative; }
+
+.no-video .video-container video,
+.touch .video-container video {
+  display: none; }
+
+.no-video .video-container .poster,
+.touch .video-container .poster {
+  display: block !important; }
+
+.video-container {
+  position: relative;
+  bottom: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: #000; }
+
+.video-container .poster img {
+  width: 100%;
+  bottom: 0;
+  position: absolute; }
+
+.video-container .filter {
+  z-index: 100;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%; }
+
+.video-container video {
+  position: absolute;
+  z-index: 0;
+  bottom: 0; }
+
+.video-container video.fillWidth {
+  width: 100%; }
+
+/*# sourceMappingURL=style.css.map */
